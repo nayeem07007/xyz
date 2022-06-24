@@ -1,21 +1,9 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?>>
-<head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<?php
+get_header();
+?>
 
-</head>
-<body>
-
-<?php wp_head(); ?>
-
-<div class="main">
-    <div class="container">
-
-    <?php while(have_posts()):the_post(); ?>
+<?php while(have_posts()):the_post(); ?>
         <div class="card">
-           
            <?php if(has_post_thumbnail()){
               the_post_thumbnail('thumbnail');
            } ?>
@@ -28,6 +16,9 @@
        <?php endwhile; ?>
     </div>
 </div>
-<?php wp_footer(); ?> 
-</body>
-</html>
+
+<?php
+get_footer(); 
+
+   
+
