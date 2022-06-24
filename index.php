@@ -25,11 +25,9 @@
                 <a href="<?php the_permalink(); ?>" class="btn btn-primary">Go somewhere</a>
            </div>
        </div>
-    <?php endwhile; ?>
-
+       <?php endwhile; ?>
     </div>
 </div>
-
 <?php wp_footer(); ?> 
 </body>
 </html>
