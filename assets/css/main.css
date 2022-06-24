@@ -1,0 +1,17 @@
+.xyz-menu li ul{
+    display: none;
+}
+.xyz-menu li{
+    list-style: none;
+}
+.xyz-menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: darkcyan;
+}
+.xyz-menu li:hover a{
+    background-color: coral;
+    color: #fff;
+    transition: all .3s;
+}
