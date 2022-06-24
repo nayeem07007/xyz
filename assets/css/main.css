@@ -1,0 +1,28 @@
+.xyz-menu li ul{
+    display: none;
+}
+.xyz-menu li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: all .4s;
+    color:gray;
+}
+.xyz-menu li:hover a{
+    background-color: red;
+    color: #fff;
+}
+.xyz-footer-menu li ul{
+    display: none;
+}
+.xyz-footer-menu li a{
+   display:block;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: all .4s;
+    color:gray;
+}
+.xyz-footer-menu li:hover a{
+    background-color:green;
+    color: #fff;
+}
