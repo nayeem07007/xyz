@@ -1,0 +1,20 @@
+.xyz-menu ul li{
+    display: none;
+}
+.nav  li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all .4s;
+    border-radius: 3px;
+    color:black
+}
+.nav li:hover a{
+    background-color: rgb(12, 33, 12);
+   
+    color: #fff;
+    
+}
+.xyz-footer-menu ul li {
+display: none;
+}
